@@ -1,13 +1,8 @@
 {
     "model": {
-        "input_size": 4,
         "layers": [
             {
-            "number_of_neurons": 4,
-            "activation_function": "relu"
-            },
-            {
-            "number_of_neurons": 4,
+            "number_of_neurons": 3,
             "activation_function": "relu"
             },
             {
@@ -16,12 +11,12 @@
             },
             {
             "number_of_neurons": 3,
-            "activation_function": "sigmoid"
+            "activation_function": "relu"
             }
         ],
-        "learning_rate": 0.5,
-        "error_threshold": 0.0001,
-        "max_iter": 1000,
+        "learning_rate": 0.00001,
+        "error_threshold": 1,
+        "max_iter": 10000,
         "batch_size": 2
     }
   }
