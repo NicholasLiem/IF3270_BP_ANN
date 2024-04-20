@@ -8,6 +8,7 @@ Isi dari case:
 - input:
     - Dimensi 1 menandakan vektor ke-i. Ukurannya arbitrary
     - Dimensi 2 menandakan isi suatu vektor. Ukurannya sesuai dengan model.input_size.
+    
 - weights:
     - Dimensi 1 bersesuaian dengan layer di layers.
     - Dimensi 2 berukuran banyak neuron pada lapisan sebelumnya + 1.
