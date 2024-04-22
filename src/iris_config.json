@@ -3,10 +3,10 @@
       "model": {
           "input_size": 4,
           "layers": [
-              {
-                  "number_of_neurons": 3,
-                  "activation_function": "softmax"
-              }
+                {
+                    "number_of_neurons": 3,
+                    "activation_function": "softmax"
+                }
           ]
       },
       "initial_weights": [
@@ -21,7 +21,7 @@
       "learning_parameters": {
           "learning_rate": 0.001,
           "batch_size": 3,
-          "max_iteration": 100,
+          "max_iteration": 1000,
           "error_threshold": 0.0
       }
   }
