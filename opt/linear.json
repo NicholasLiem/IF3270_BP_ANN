@@ -1,0 +1,38 @@
+{
+    "case": {
+        "model": {
+            "input_size": 2,
+            "layers": [
+                {
+                    "number_of_neurons": 3,
+                    "activation_function": "linear"
+                }
+            ]
+        },
+        "initial_weights": [
+            [
+                [
+                    0.22000000000000003,
+                    0.36000000000000004,
+                    0.11000000000000001
+                ],
+                [
+                    0.64,
+                    0.30000000000000004,
+                    -0.89
+                ],
+                [
+                    0.28,
+                    -0.7,
+                    0.37
+                ]
+            ]
+        ],
+        "learning_parameters": {
+            "learning_rate": 0.1,
+            "batch_size": 2,
+            "max_iteration": 1,
+            "error_threshold": 0.0
+        }
+    }
+}
