@@ -1,4 +1,4 @@
-# IF3270_Machine Learning_FP_FFNN
+# IF3270_Machine Learning_BP_ANN
 
 ## **Table of Contents**
 
@@ -7,23 +7,15 @@
 - [Author](#author)
 
 ## **Program Description**
-
-This program is a model making of Fast Feed Neural Network (FFNN) model. The program is available to read input from JSON file. Depends on the configuration, the program can use 4 activation functions:
-<ul>
-  <li> Linear </li>
-  <li> ReLU </li>
-  <li> Sigmoid </li>
-  <li> Softmax </li>
-</ul>
-This program will then display its output, which are the calculation result, the error, and the visualization graph.
+An Artificial Neural Network model with forward and backward propagation.
 
 ## **Execution Guide**
 
 1. Clone this repository
 ```sh
-git clone https://github.com/NicholasLiem/IF3270_FP_FFNN.git
+git clone https://github.com/NicholasLiem/IF3270_BP_ANN.git
 ```
-2. Run the `Main.ipynb` file
+2. Run the `src/ArtificialNeuralNetwork.ipynb` file
 
 
 ## **Author**
